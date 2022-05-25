@@ -1,0 +1,33 @@
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `student_quote_price_req_log`
+--
+
+DROP TABLE IF EXISTS `student_quote_price_req_log`;
+CREATE TABLE IF NOT EXISTS `student_quote_price_req_log` (
+  `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
+  `log` text,
+  `create_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+
+--
+-- Truncate table before insert `student_quote_price_req_log`
+--
+
+TRUNCATE TABLE `student_quote_price_req_log`;
+--
+-- Dumping data for table `student_quote_price_req_log`
+--
+
+INSERT DELAYED IGNORE INTO `student_quote_price_req_log` (`id`, `log`) VALUES
+(1, '\"tid=19&merchant_id=242898&order_id=19&amount=5000&currency=INR&redirect_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&cancel_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&language=EN&billing_name=khushi dokania TOGS00247&billing_address=&billing_city=Kolkata&billing_state=West Bengal&billing_zip=&billing_country=India&billing_tel=6290797564&billing_email=dsoul3969@gmail.com&delivery_name=khushi dokania&delivery_address=&delivery_city=Kolkata&delivery_state=West Bengal&delivery_zip=&delivery_country=India&delivery_tel=6290797564&merchant_param1=theOnlineGurukul&merchant_param2=750\"'),
+(2, '\"tid=19&merchant_id=242898&order_id=19&amount=5000&currency=INR&redirect_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&cancel_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&language=EN&billing_name=khushi dokania TOGS00247&billing_address=&billing_city=Kolkata&billing_state=West Bengal&billing_zip=&billing_country=India&billing_tel=6290797564&billing_email=dsoul3969@gmail.com&delivery_name=khushi dokania&delivery_address=&delivery_city=Kolkata&delivery_state=West Bengal&delivery_zip=&delivery_country=India&delivery_tel=6290797564&merchant_param1=theOnlineGurukul&merchant_param2=750\"'),
+(3, '\"tid=63&merchant_id=242898&order_id=63&amount=3200&currency=INR&redirect_url=https:\\/\\/theonlinegurukul.com\\/student\\/response&cancel_url=https:\\/\\/theonlinegurukul.com\\/student\\/response&language=EN&billing_name=narender rathore TOGS00002&billing_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&billing_city=Gurgaon&billing_state=Haryana&billing_zip=122015&billing_country=India&billing_tel=703965558&billing_email=user1@theonlinegurukul.com&delivery_name=narender rathore&delivery_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&delivery_city=Gurgaon&delivery_state=Haryana&delivery_zip=122015&delivery_country=India&delivery_tel=703965558&merchant_param1=theOnlineGurukul&merchant_param2=20\"'),
+(4, '\"tid=63&merchant_id=242898&order_id=63&amount=3200&currency=INR&redirect_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&cancel_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&language=EN&billing_name=narender rathore TOGS00002&billing_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&billing_city=Gurgaon&billing_state=Haryana&billing_zip=122015&billing_country=India&billing_tel=703965558&billing_email=user1@theonlinegurukul.com&delivery_name=narender rathore&delivery_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&delivery_city=Gurgaon&delivery_state=Haryana&delivery_zip=122015&delivery_country=India&delivery_tel=703965558&merchant_param1=theOnlineGurukul&merchant_param2=20\"'),
+(5, '\"tid=150&merchant_id=242898&order_id=150&amount=850&currency=INR&redirect_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&cancel_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&language=EN&billing_name=narender rathore TOGS00002&billing_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&billing_city=Gurgaon&billing_state=Haryana&billing_zip=122015&billing_country=India&billing_tel=703965558&billing_email=user1@theonlinegurukul.com&delivery_name=narender rathore&delivery_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&delivery_city=Gurgaon&delivery_state=Haryana&delivery_zip=122015&delivery_country=India&delivery_tel=703965558&merchant_param1=theOnlineGurukul&merchant_param2=20\"'),
+(6, '\"tid=63&merchant_id=242898&order_id=63&amount=3200&currency=INR&redirect_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&cancel_url=https:\\/\\/www.theonlinegurukul.com\\/student\\/response&language=EN&billing_name=narender rathore TOGS00002&billing_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&billing_city=Gurgaon&billing_state=Haryana&billing_zip=122015&billing_country=India&billing_tel=703965558&billing_email=user1@theonlinegurukul.com&delivery_name=narender rathore&delivery_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&delivery_city=Gurgaon&delivery_state=Haryana&delivery_zip=122015&delivery_country=India&delivery_tel=703965558&merchant_param1=theOnlineGurukul&merchant_param2=20\"'),
+(7, '\"tid=63&merchant_id=242898&order_id=63&amount=3200&currency=INR&redirect_url=https:\\/\\/theonlinegurukul.com\\/student\\/response&cancel_url=https:\\/\\/theonlinegurukul.com\\/student\\/response&language=EN&billing_name=narender rathore TOGS00002&billing_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&billing_city=Gurgaon&billing_state=Haryana&billing_zip=122015&billing_country=India&billing_tel=703965558&billing_email=user1@theonlinegurukul.com&delivery_name=narender rathore&delivery_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&delivery_city=Gurgaon&delivery_state=Haryana&delivery_zip=122015&delivery_country=India&delivery_tel=703965558&merchant_param1=theOnlineGurukul&merchant_param2=20\"'),
+(8, '\"tid=63&merchant_id=242898&order_id=63&amount=3200&currency=INR&redirect_url=https:\\/\\/theonlinegurukul.com\\/student\\/response&cancel_url=https:\\/\\/theonlinegurukul.com\\/student\\/response&language=EN&billing_name=narender rathore TOGS00002&billing_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&billing_city=Gurgaon&billing_state=Haryana&billing_zip=122015&billing_country=India&billing_tel=703965558&billing_email=user1@theonlinegurukul.com&delivery_name=narender rathore&delivery_address=plot no 116,first floor,ma towers,udhyog vihar phase 4,gurgaon,haryana&delivery_city=Gurgaon&delivery_state=Haryana&delivery_zip=122015&delivery_country=India&delivery_tel=703965558&merchant_param1=theOnlineGurukul&merchant_param2=20\"');
